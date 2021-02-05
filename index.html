@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperator - Web Design Guru.</title>
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="search-modal">
+        <form class="search-modal__form">
+            <input class="search-modal__input" type="text" name="s" id="search" autocomplete="off" placeholder="Pretraga">
+            <button class="search-modal__btn" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <div class="search-modal__close">
+            <div></div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="contact">
+            <div class="container">
+                <div class="contact__information">
+                    <a href="#" ><i class="fas fa-envelope"></i>imperator@gmail.com</a>
+                    <a href="#" ><i class="fas fa-phone"></i>+0123456789</a>
+                </div>
+                <div class="contact__social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="menu">
+            <div class="container">
+                <a href="index.html" class="menu__brand">
+                    <img src="images/logo-guru.png" alt="logo">
+                </a>
+                <ul class="menu__list">
+                    <li><a href="#">Lokacije</a></li>
+                    <li><a href="#">Cenovnik</a></li>
+                    <li><a href="#">Tutorijali</a>
+                        <ul>
+                            <li><a href="#">Lista velikih</a></li>
+                            <li><a href="#">Lista</a></li>
+                            <li><a href="#">Lista</a></li>
+                            <li><a href="#">Lista</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">O nama</a></li>
+                    <li><a href="single.html">Blog</a>
+                        <ul>
+                            <li><a href="#">Lista velikih lutalica</a></li>
+                            <li><a href="#">Listanitacijashr</a></li>
+                            <li><a href="#">Lista</a></li>
+                            <li><a href="#">Lista</a></li>
+                        </ul>
+                    </li>
+                    <li><span id="open-search"><i class="fas fa-search"></i></span></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="video__container">
+            <video autoplay loop muted class="video">
+                <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+            </video>
+            <div class="video__overlay"></div>
+        </div>
+
+        <!-- Slider -->
+        <div class="multiple-items">
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=1" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=2" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=3" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=4" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=5" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=6" alt="slika 1">
+                <div class="slider__title">
+                    Javascript
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=7" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=8" alt="slika 1">
+                <div class="slider__title">
+                    Wordpress
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=9" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+            <div class="slider">
+                <img class="slider__img" src="https://picsum.photos/200/300?random=10" alt="slika 1">
+                <div class="slider__title">
+                    Php
+                </div>
+            </div>
+        </div>
+        <!-- Kategorije-->
+        <div class="categories">
+            <div class="container">
+                <div class="category">
+                    <h2 class="category__heading">Lokacije</h2>
+                </div>
+                <div class="category">
+                    <h2 class="category__heading">Borilacka Akademija</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog-->
+        <section id="blog">
+            <h2 class="main-heading">Blog</h2>
+            <div class="container">
+                
+                    <div class="blog">
+                        <div class="blog__head">
+                            <div class="blog__head-date">
+                                27.
+                                <span>Okt</span>
+                            </div>
+                        </div>
+                        <div class="blog__body">
+                            <div class="blog__title">
+                                Sta je to tacno kreatin i da li je stetan?
+                            </div>
+                            <p class="blog__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Accusamus modi dicta voluptatem eveniet libero repellat neque quod unde cumque. Possimus aspernatur 
+                                ipsa eum vitae sed! Architecto nostrum harum quisquam reprehenderit.
+                            </p>
+                            <a href="#" class="btn">Procitaj jos</a>
+                        </div>
+                    </div>
+                
+                
+                    <div class="blog">
+                        <div class="blog__head">
+                            <div class="blog__head-date">
+                                27.
+                                Okt
+                            </div>
+                        </div>
+                        <div class="blog__body">
+                            <div class="blog__title">
+                                Sta je to tacno kreatin i da li je stetan?
+                            </div>
+                            <p class="blog__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Accusamus modi dicta voluptatem eveniet libero repellat neque quod unde cumque. Possimus aspernatur 
+                                ipsa eum vitae sed! Architecto nostrum harum quisquam reprehenderit.
+                            </p>
+                            <a href="#" class="btn">Procitaj jos</a>
+                        </div>
+                    </div>
+                
+                
+                    <div class="blog">
+                        <div class="blog__head">
+                            <div class="blog__head-date">
+                                27.
+                                Okt
+                            </div>
+                        </div>
+                        <div class="blog__body">
+                            <div class="blog__title">
+                                Sta je to tacno kreatin i da li je stetan?
+                            </div>
+                            <p class="blog__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Accusamus modi dicta voluptatem eveniet libero repellat neque quod unde cumque. Possimus aspernatur 
+                                ipsa eum vitae sed! Architecto nostrum harum quisquam reprehenderit.
+                            </p>
+                            <a href="#" class="btn">Procitaj jos</a>
+                        </div>
+                    </div>
+                
+
+            </div>
+        </section>
+
+        <!--Contact form-->
+        <section id="contact">
+            <h2 class="main-heading">Kontakt</h2>
+            <div class="container">
+                <form action="#" class="form">
+                    <div class="form__head">
+                        <input type="text" name="ime" placeholder="Ime">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <input type="tel" name="telefon" placeholder="Telefon">
+                    </div>
+                    <div class="form__foot">
+                        <textarea name="text" cols="30" rows="10" placeholder="Napisi poruku...">
+                        </textarea>
+                        <button class="btn">Posalji poruku</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+            <div class="footer__body container">
+               
+                    <div class="footer__contacts">
+                        <a href="#" ><i class="fas fa-phone"></i>+0123456789</a>
+                        <a href="#" ><i class="fas fa-envelope"></i>imperator@gmail.com</a>
+                        <a href="#" ><i class="fas fa-map-marker-alt"></i>Pogledaj lokacije</a>
+                    </div>
+                    <div class="footer__logo">
+                        <img src="images/logo-guru.png" alt="logo for footer">
+                    </div>
+                    <div class="footer__social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                
+            </div>
+            <div class="footer__copy">
+                &copy;copyright2020 <a href="#">VV Design</a> All Rights Reserved
+            </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
